@@ -16,16 +16,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="0.29999999999999999" translatesAutoresizingMaskIntoConstraints="NO" id="gA4-PH-t2k">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="0.29999999999999999" translatesAutoresizingMaskIntoConstraints="NO" id="gA4-PH-t2k">
                                 <rect key="frame" x="0.0" y="44" width="414" height="108"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="100"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9FY-eU-oyv">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9FY-eU-oyv">
                                 <rect key="frame" x="0.0" y="160" width="414" height="736"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sw4-7v-Zcm">
                                         <rect key="frame" x="22" y="8" width="90" height="62"/>
@@ -213,6 +211,16 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="9FY-eU-oyv" firstAttribute="top" secondItem="gA4-PH-t2k" secondAttribute="bottom" constant="8" id="5fH-5C-LFq"/>
+                            <constraint firstAttribute="bottom" secondItem="9FY-eU-oyv" secondAttribute="bottom" id="GTR-Yx-6V2"/>
+                            <constraint firstItem="gA4-PH-t2k" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="LUq-Y3-pqd"/>
+                            <constraint firstItem="9FY-eU-oyv" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="VUW-LP-y9O"/>
+                            <constraint firstItem="9FY-eU-oyv" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="116" id="gsD-8W-RIS"/>
+                            <constraint firstItem="gA4-PH-t2k" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="pkD-PL-sDr"/>
+                            <constraint firstItem="9FY-eU-oyv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="zAZ-oZ-TYr"/>
+                            <constraint firstItem="gA4-PH-t2k" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="zhC-iE-o68"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
