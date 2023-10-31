@@ -1,9 +1,3 @@
-//
-//  ViewController.swift
-//  calculator swift
-//
-//  Created by Ainur on 31.10.2023.
-//
 
 import UIKit
 
